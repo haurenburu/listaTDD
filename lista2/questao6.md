@@ -2,7 +2,7 @@
 ```
 import Lista from '../Lista';
 
-class Questao8{
+class Questao6{
   constructor(lista){
     this.lista = lista;
   }
@@ -30,12 +30,12 @@ class Questao8{
 
 }
 
-export default Questao8;
+export default Questao6;
 ```
 
 # teste
 ```
-import Questao8 from '../src/Lista_2/questao8';
+import Questao6 from '../src/Lista_2/questao6';
 import Lista from '../src/Lista';
 
 
@@ -43,7 +43,7 @@ let lista;
 let list;
 beforeEach(() => {
   lista = new Lista();
-  list = new Questao8(lista);
+  list = new Questao6(lista);
 });
 
 
